@@ -4759,7 +4759,7 @@ Sticky Menu
 }
 
 .str-testimonial_name_designation .str-testimonial_meta h4 {
-  color: #010101;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 700;
   padding-bottom: 5px;
@@ -4767,7 +4767,7 @@ Sticky Menu
 
 .str-testimonial_name_designation .str-testimonial_meta p {
   font-size: 14px;
-  color: #444444;
+  color: #000000;
 }
 
 .str-testimonial_slider .carousel-control-prev,
@@ -5784,6 +5784,10 @@ Sticky Menu
   .str-about-section .str-about-content .str-about-img .str-about-shape {
     display: none;
   }
+  .str-about-section .str-about-content .str-about-img .str-about-img-field .small-code-photo {
+    display: none;
+  }
+
 
   .str-about-section .str-about-feature-box {
     padding: 25px 15px;
