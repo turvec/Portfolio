@@ -3854,6 +3854,13 @@ Sticky Menu
 /*---------------------------------------------------- */
 /*banner area*/
 /*----------------------------------------------------*/
+.color-overlay{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  position: absolute;
+}
 .str-banner-slide-area {
   padding: 280px 0px 250px;
 }
@@ -3903,6 +3910,7 @@ Sticky Menu
   transform: scaleY(0);
   transform-origin: top;
   transition: all 1000ms ease;
+  z-index: 1;
 }
 
 .str-banner-slide-area .str-banner-content h1:after {
@@ -3924,6 +3932,7 @@ Sticky Menu
   transform: scaleY(0);
   transform-origin: top;
   transition: all 1000ms ease;
+  z-index: 1;
 }
 
 .str-banner-slide-area .str-banner-content a {
